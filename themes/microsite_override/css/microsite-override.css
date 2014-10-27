@@ -1,0 +1,90 @@
+/* cancer medicine custom theme */
+
+.front .region-secondary-content .block-inner {
+  height:250px;
+  background:#ACA39A;
+}
+
+.front .cycle-view {
+  overflow:hidden;
+}
+
+.front .region-secondary-content .hero-caption {
+  font-size: 16px;
+}
+
+.front .hero-copy {
+  position: absolute;
+  right: 10%;
+  top: 26px;
+  background: transparent;
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  font-weight: bold;
+  border: 0;
+  height: 210px;
+}
+
+.front .hero-copy ul {
+  margin:10px 0 0 18px;
+  padding-left:5px;
+}
+
+.front .hero-copy ul li {
+  line-height:20px;
+  margin-top:0;
+}
+
+.front .hero-caption {
+  margin:0;
+}
+
+@media (max-width:1023px) {
+  .front .hero-copy {
+    right:20px;
+    width:65%;
+    top:10px;
+  }
+
+  .front .region-secondary-content .hero-title {
+    font-size:16px;
+  }
+
+  .front .region-secondary-content .hero-caption {
+    font-size:14px;
+  }
+}
+
+@media (max-width:795px) {
+  .front .region-secondary-content .block-inner {
+    margin:0;
+  }
+
+  .front .hero-copy {
+    width:92%;
+    right:0;
+  }
+
+  .front .region-secondary-content .views-field-field-hero-image {
+    display: none;
+  }
+
+  .front .region-secondary-content .hero-title,
+  .front .region-secondary-content .hero-caption {
+    font-size:12px;
+    line-height:12px;
+  }
+
+}
+
+@media (max-width:400px) {
+  .front .region-secondary-content .block-inner {
+    height:292px;
+  }
+
+  .front .hero-copy {
+    left:10px;
+  }  
+}
