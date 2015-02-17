@@ -1,5 +1,14 @@
 /* cancer medicine custom theme */
 
+.front .region-secondary-content .views-field-field-hero-image {
+  width:100%;
+}
+
+.front .hero-copy {
+  display:none;
+}
+
+/* old home page slider
 .front .region-secondary-content .block-inner {
   height:250px;
   background:#ACA39A;
@@ -88,3 +97,4 @@
     left:10px;
   }  
 }
+*/
